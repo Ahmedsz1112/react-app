@@ -59,7 +59,7 @@ function App() {
   const [count, setCount] = useState(0);
 
     const handleAdd = useCallback(() => {
-      setCount((prev) => prev + 1)
+      setCount((prev) => prev + 2)
     }, [])
 
   return (
